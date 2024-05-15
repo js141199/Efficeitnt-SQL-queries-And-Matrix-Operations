@@ -1,0 +1,12 @@
+TASKS REM
+> recheck all briefs functions/classes
+> report banavano baaki
+> add assumptions that in print function we first have accessed row and stored it in 2d vector, we could also use another approach that for each row, we need to bring page, so there would be tradeoff between memory and page access
+> merge into master branch
+
+Completed:
+> rename all commands of matrix from LOAD to LOAD MATRIX etc....
+> write syntax and semantic parser
+> buffer manager mathi print nathi thatu transpose vada ma
+> number of blocks access 
+> Parser for rename is remaining

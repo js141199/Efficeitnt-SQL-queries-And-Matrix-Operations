@@ -1,0 +1,6 @@
+LOAD Student
+LOAD Advisor
+LOAD Marks
+MALE_A <- SELECT Stud_sex == 0 FROM Student
+RESULT_A <- PROJECT Stud_Id, Stud_age FROM MALE_A
+PRINT RESULT_A

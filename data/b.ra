@@ -1,0 +1,7 @@
+LOAD Student
+LOAD Advisor
+LOAD Marks
+FEMALE_B <- SELECT Stud_sex == 1 FROM Student
+AGE_B <- SELECT Stud_age > 16 FROM FEMALE_B
+RESULT_B <- PROJECT Stud_Id, Stud_age FROM AGE_B
+PRINT RESULT_B
